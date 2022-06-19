@@ -9,7 +9,11 @@
                      Priority="0"
                      Clicked="toolmenu_Clicked"/>
     </ContentPage.ToolbarItems>
-    <ContentPage.Resources>        <ResourceDictionary>            <Convertidor:ByteArrayToImage x:Key="ByteToImage" />        </ResourceDictionary>    </ContentPage.Resources>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Convertidor:ByteArrayToImage x:Key="ByteToImage" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
 
     <ContentPage.Content>
         <StackLayout>

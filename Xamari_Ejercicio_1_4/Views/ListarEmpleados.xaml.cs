@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Ejercicio1_4_Xamari.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamari_Ejercicio_1_4;
 
 namespace Ejercicio1_4_Xamari.Views
 {
@@ -32,7 +33,7 @@ namespace Ejercicio1_4_Xamari.Views
         private async void liestapersonas_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             var persona = (Empleados)e.Item;
-            MainPage page = new MainPage();
+            VerImagen page = new VerImagen();
             page.BindingContext = persona;
             await Navigation.PushAsync(page);
 

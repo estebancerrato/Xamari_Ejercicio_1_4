@@ -4,7 +4,11 @@
              x:Class="Ejercicio1_4_Xamari.MainPage">
 
 
-    <ContentPage.Resources>        <ResourceDictionary>            <Convertidor:ByteArrayToImage x:Key="ByteToImage" />        </ResourceDictionary>    </ContentPage.Resources>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Convertidor:ByteArrayToImage x:Key="ByteToImage" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <StackLayout>
         <ScrollView>
     
